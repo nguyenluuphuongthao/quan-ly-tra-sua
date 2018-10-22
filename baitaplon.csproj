@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdmin.Designer.cs">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormChinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChinh.Designer.cs">
+      <DependentUpon>FormChinh.cs</DependentUpon>
+    </Compile>
     <Compile Include="formdangnhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -53,19 +65,49 @@
       <DependentUpon>formdangnhap.cs</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormDoanhThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDoanhThu.Designer.cs">
+      <DependentUpon>FormDoanhThu.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formmenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formmenu.Designer.cs">
+      <DependentUpon>Formmenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Thongitncanhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thongitncanhan.Designer.cs">
+      <DependentUpon>Thongitncanhan.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormAdmin.resx">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormChinh.resx">
+      <DependentUpon>FormChinh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formdangnhap.resx">
       <DependentUpon>formdangnhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormDoanhThu.resx">
+      <DependentUpon>FormDoanhThu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formmenu.resx">
+      <DependentUpon>Formmenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -77,6 +119,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Thongitncanhan.resx">
+      <DependentUpon>Thongitncanhan.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

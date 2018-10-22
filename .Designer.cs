@@ -41,10 +41,9 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(169, 121);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(127, 98);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(215, 46);
+            this.label1.Size = new System.Drawing.Size(170, 36);
             this.label1.TabIndex = 1;
             this.label1.Text = "Đăng nhập ";
             // 
@@ -53,10 +52,9 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(41, 199);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(31, 162);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(203, 31);
+            this.label2.Size = new System.Drawing.Size(157, 24);
             this.label2.TabIndex = 2;
             this.label2.Text = "Tên đăng nhập :";
             // 
@@ -65,29 +63,26 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(41, 263);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(31, 214);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(148, 31);
+            this.label3.Size = new System.Drawing.Size(114, 24);
             this.label3.TabIndex = 3;
             this.label3.Text = "Mật khẩu : ";
             // 
             // txtusername
             // 
-            this.txtusername.Location = new System.Drawing.Point(267, 198);
-            this.txtusername.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtusername.Location = new System.Drawing.Point(200, 161);
             this.txtusername.Multiline = true;
             this.txtusername.Name = "txtusername";
-            this.txtusername.Size = new System.Drawing.Size(233, 30);
+            this.txtusername.Size = new System.Drawing.Size(176, 25);
             this.txtusername.TabIndex = 4;
             // 
             // txtpass
             // 
-            this.txtpass.Location = new System.Drawing.Point(267, 262);
-            this.txtpass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtpass.Location = new System.Drawing.Point(200, 213);
             this.txtpass.Multiline = true;
             this.txtpass.Name = "txtpass";
-            this.txtpass.Size = new System.Drawing.Size(233, 30);
+            this.txtpass.Size = new System.Drawing.Size(176, 25);
             this.txtpass.TabIndex = 5;
             // 
             // butdangnhap
@@ -95,10 +90,9 @@
             this.butdangnhap.BackColor = System.Drawing.Color.Transparent;
             this.butdangnhap.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.butdangnhap.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butdangnhap.Location = new System.Drawing.Point(380, 325);
-            this.butdangnhap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butdangnhap.Location = new System.Drawing.Point(285, 264);
             this.butdangnhap.Name = "butdangnhap";
-            this.butdangnhap.Size = new System.Drawing.Size(149, 38);
+            this.butdangnhap.Size = new System.Drawing.Size(112, 31);
             this.butdangnhap.TabIndex = 0;
             this.butdangnhap.Text = "Đăng nhập";
             this.butdangnhap.UseVisualStyleBackColor = false;
@@ -106,11 +100,12 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AcceptButton = this.butdangnhap;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::baitaplon.Properties.Resources.abstract_comic_book_background_design_vector1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(559, 398);
+            this.ClientSize = new System.Drawing.Size(419, 323);
             this.ControlBox = false;
             this.Controls.Add(this.txtpass);
             this.Controls.Add(this.txtusername);
@@ -118,7 +113,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.butdangnhap);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
